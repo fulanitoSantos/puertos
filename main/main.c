@@ -234,8 +234,8 @@ void app_main()
     while (true)
     {
         printf("enviando \r\n");
-        uart_printf(UART1, "hola desde uart1 \n");
-        uart_printf(UART2, "hola desde uart2 \n");
+        uart_printf(UART1, "hola desde uart1\n|");
+        uart_printf(UART2, "hola desde uart2\n|");
         vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
